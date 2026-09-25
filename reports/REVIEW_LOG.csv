@@ -1,0 +1,4 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0369.jpg,nhiều xe nhỏ ở các làn xa gần phía trên-trung tâm ảnh,added,Đối chiếu ảnh gốc cho thấy các xe riêng biệt bị pre-label bỏ sót; thêm box ôm phần thân xe nhìn thấy và không khoanh riêng vệt sáng trên đường.
+1,frame_0331.jpg,box pre-label không khớp riêng một xe rõ ràng ở vùng giữa mặt đường,deleted,Rà ảnh gốc cho thấy box không ôm một xe riêng biệt; xóa để tránh nhầm vùng sáng hoặc đèn với xe, theo guideline không gán phản chiếu.
+1,frame_0182.jpg,xe con nhìn rõ ở làn giữa-trái,accepted,Box gợi ý khớp sát thân xe nhìn thấy và không bao gồm vùng sáng chiếu trên mặt đường nên giữ lại.
